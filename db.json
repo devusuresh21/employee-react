@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "id": "fac3",
+      "username": "devu",
+      "email": "d@gmail.com",
+      "status": "inactive"
+    },
+    {
+      "id": "a0c1",
+      "username": "ammu",
+      "email": "a@gmail.com",
+      "status": "Inactive"
+    },
+    {
+      "id": 1731662331114,
+      "username": "achu",
+      "email": "a@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": 1731662350401,
+      "username": "akku",
+      "email": "akku2@gmail.com",
+      "status": "Inactive"
+    }
+  ]
+}
