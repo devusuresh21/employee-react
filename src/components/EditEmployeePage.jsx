@@ -9,8 +9,8 @@ const EditEmployeePage = () => {
     email: '',
     status: 'active',
   });
-  const { id } = useParams(); // Get the employee ID from the URL params
-  const navigate = useNavigate(); // For navigation after updating
+  const { id } = useParams(); 
+  const navigate = useNavigate();
 
   // Fetch the employee data based on ID
   useEffect(() => {
@@ -37,7 +37,7 @@ const EditEmployeePage = () => {
 
     try {
       await axios.put(`http://localhost:3000/employees/${id}`, employee); // Update employee data
-      navigate('/'); // Redirect to homepage after update
+      navigate('/');
     } catch (error) {
       console.error('Error updating employee:', error);
     }
